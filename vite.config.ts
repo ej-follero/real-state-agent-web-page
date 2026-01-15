@@ -20,7 +20,7 @@ export default defineConfig(({ mode }) => ({
   ],
   // Use base path only in production builds, use root for development
   base: mode === 'production' 
-    ? (process.env.VITE_BASE_PATH || "/real-state-agent-web-page")
+    ? (process.env.VITE_BASE_PATH || "/Marci Metzger Homes - Real Estate Professional")
     : "/",
   resolve: {
     alias: {
