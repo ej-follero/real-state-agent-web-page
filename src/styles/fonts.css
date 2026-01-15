@@ -1,0 +1,12 @@
+/* Google Fonts - Cinzel (Serif) and Source Sans Pro (Sans-serif) */
+/* These fonts are loaded via Google Fonts in index.html */
+
+/* Cinzel - Elegant serif font for headings */
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+/* Source Sans Pro - Clean sans-serif font for body text */
+.font-source-sans {
+  font-family: 'Source Sans Pro', arial, sans-serif;
+}
