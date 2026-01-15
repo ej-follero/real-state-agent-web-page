@@ -22,7 +22,7 @@ export function Footer() {
           {/* About Section */}
           <div className="sm:col-span-2 md:col-span-2 lg:col-span-2">
             {/* Logo */}
-            <div className="mb-4 md:mb-6 -mt-4 md:-mt-6 flex justify-start">
+            <div className="mb-4 md:mb-6 -mt-4 md:-mt-6 flex justify-center md:justify-center lg:justify-start">
               <a 
                 href="#home" 
                 onClick={(e) => { 
@@ -60,11 +60,11 @@ export function Footer() {
                 />
               </a>
             </div>
-            <p className="text-gray-300 mb-6 md:mb-8 leading-relaxed max-w-md md:max-w-lg text-sm sm:text-base md:text-base" style={{ fontFamily: "'Source Sans Pro', arial, sans-serif" }}>
+            <p className="text-gray-300 mb-6 md:mb-8 leading-relaxed max-w-md md:max-w-lg text-sm sm:text-base md:text-base text-center md:text-center lg:text-left" style={{ fontFamily: "'Source Sans Pro', arial, sans-serif" }}>
               Your trusted real estate professional dedicated to helping you find the perfect home 
               or sell your property with confidence and ease.
             </p>
-            <div className="flex justify-center md:justify-start lg:justify-center space-x-3 md:space-x-4">
+            <div className="flex justify-center md:justify-center lg:justify-start space-x-3 md:space-x-4">
               <a 
                 href="https://www.facebook.com/marcimetzgerhomes" 
                 target="_blank" 
@@ -106,8 +106,8 @@ export function Footer() {
 
           {/* Quick Links */}
           <div className="mt-8 md:mt-0">
-            <h4 className="text-lg md:text-xl mb-4 md:mb-5 font-cinzel">Quick Links</h4>
-            <ul className="space-y-2 md:space-y-3">
+            <h4 className="text-lg md:text-xl mb-4 md:mb-5 font-cinzel text-center md:text-center lg:text-left">Quick Links</h4>
+            <ul className="space-y-2 md:space-y-3 text-center md:text-center lg:text-left">
               <li>
                 <button 
                   onClick={() => scrollToSection('home')} 
@@ -158,10 +158,10 @@ export function Footer() {
 
           {/* Contact Info */}
           <div className="mt-8 md:mt-0">
-            <h4 className="text-lg md:text-xl mb-4 md:mb-5 font-cinzel">Contact</h4>
-            <ul className="space-y-3 md:space-y-4">
+            <h4 className="text-lg md:text-xl mb-4 md:mb-5 font-cinzel text-center md:text-center lg:text-left">Contact</h4>
+            <ul className="space-y-3 md:space-y-4 text-center md:text-center lg:text-left">
               <li>
-                <div className="flex flex-col">
+                <div className="flex flex-col items-center md:items-center lg:items-start">
                   <a 
                     href="tel:+12069196886" 
                     className="text-gray-300 hover:text-blue-400 transition-colors text-sm md:text-base"

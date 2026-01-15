@@ -57,7 +57,7 @@ export function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className={`flex items-center h-20 transition-all duration-300 ${isScrolled ? 'justify-between' : 'justify-center'}`}>
+        <div className={`flex items-center ${isScrolled ? 'h-20 justify-between' : 'h-16 sm:h-20 justify-center'}`}>
           {/* Desktop Hamburger Menu Button - Shows on larger screens when not scrolled */}
           <button 
             className={`hidden md:block p-2 transition-all duration-300 absolute left-4 ${
@@ -72,7 +72,7 @@ export function Header() {
           </button>
 
           {/* Logo - Centered when not scrolled, left-aligned when scrolled */}
-          <div className={`flex-shrink-0 flex items-center justify-center transition-all duration-300 ${isScrolled ? '' : 'absolute left-1/2 transform -translate-x-1/2 pt-50'}`}>
+          <div className={`flex-shrink-0 flex items-center justify-center transition-all duration-300 ${isScrolled ? '' : 'absolute left-1/2 transform -translate-x-1/2 top-2 sm:top-4 md:top-6'}`}>
             <a 
               href="#home" 
               onClick={(e) => { 
@@ -86,7 +86,7 @@ export function Header() {
                 src={logoSmall}
                 alt="Marci Metzger - Real Estate Professional"
                 className={`w-auto object-contain sm:hidden transition-all duration-300 hover:scale-110 ${
-                  isScrolled ? 'h-12' : 'h-14 sm:h-16'
+                  isScrolled ? 'h-12' : 'h-10 sm:h-14'
                 }`}
                 style={{ 
                   filter: isScrolled ? 'none' : 'brightness(0) invert(1)'
